@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18B21A6C14781774006B003D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B21A6B14781774006B003D /* UIKit.framework */; };
+		18B21A6E14781774006B003D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B21A6D14781774006B003D /* Foundation.framework */; };
+		18B21A7014781774006B003D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B21A6F14781774006B003D /* CoreGraphics.framework */; };
+		18B21A7614781774006B003D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18B21A7414781774006B003D /* InfoPlist.strings */; };
+		18B21A7914781774006B003D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B21A7814781774006B003D /* main.m */; };
+		18B21A7C14781774006B003D /* UITableView_KeyBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B21A7B14781774006B003D /* UITableView_KeyBoardAppDelegate.m */; };
+		18B21A7F14781774006B003D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B21A7D14781774006B003D /* MainWindow.xib */; };
+		18B21A8214781774006B003D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B21A8114781774006B003D /* RootViewController.m */; };
+		18B21A8514781774006B003D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B21A8314781774006B003D /* RootViewController.xib */; };
+		18B21A8E147817C0006B003D /* CustomTextBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B21A8C147817C0006B003D /* CustomTextBoxCell.m */; };
+		18B21A8F147817C0006B003D /* CustomTextBoxCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B21A8D147817C0006B003D /* CustomTextBoxCell.xib */; };
+		18B21A9E14782A32006B003D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B21A9B14782A32006B003D /* default.png */; };
+		18B21A9F14782A32006B003D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B21A9C14782A32006B003D /* icon.png */; };
+		18B21AA014782A32006B003D /* icon2@.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B21A9D14782A32006B003D /* icon2@.png */; };
+		18B21AA214783133006B003D /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 18B21AA114783133006B003D /* Readme */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B21A6714781774006B003D /* UITableView+KeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITableView+KeyBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B21A6B14781774006B003D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18B21A6D14781774006B003D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18B21A6F14781774006B003D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18B21A7314781774006B003D /* UITableView+KeyBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableView+KeyBoard-Info.plist"; sourceTree = "<group>"; };
+		18B21A7514781774006B003D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18B21A7714781774006B003D /* UITableView+KeyBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+KeyBoard-Prefix.pch"; sourceTree = "<group>"; };
+		18B21A7814781774006B003D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B21A7A14781774006B003D /* UITableView_KeyBoardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITableView_KeyBoardAppDelegate.h; sourceTree = "<group>"; };
+		18B21A7B14781774006B003D /* UITableView_KeyBoardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_KeyBoardAppDelegate.m; sourceTree = "<group>"; };
+		18B21A7E14781774006B003D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		18B21A8014781774006B003D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		18B21A8114781774006B003D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		18B21A8414781774006B003D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		18B21A8B147817C0006B003D /* CustomTextBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextBoxCell.h; sourceTree = "<group>"; };
+		18B21A8C147817C0006B003D /* CustomTextBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextBoxCell.m; sourceTree = "<group>"; };
+		18B21A8D147817C0006B003D /* CustomTextBoxCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTextBoxCell.xib; sourceTree = "<group>"; };
+		18B21A9B14782A32006B003D /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		18B21A9C14782A32006B003D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		18B21A9D14782A32006B003D /* icon2@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@.png"; sourceTree = "<group>"; };
+		18B21AA114783133006B003D /* Readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B21A6414781774006B003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B21A6C14781774006B003D /* UIKit.framework in Frameworks */,
+				18B21A6E14781774006B003D /* Foundation.framework in Frameworks */,
+				18B21A7014781774006B003D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B21A5C14781774006B003D = {
+			isa = PBXGroup;
+			children = (
+				18B21A7114781774006B003D /* UITableView+KeyBoard */,
+				18B21A6A14781774006B003D /* Frameworks */,
+				18B21A6814781774006B003D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B21A6814781774006B003D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B21A6714781774006B003D /* UITableView+KeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B21A6A14781774006B003D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B21A6B14781774006B003D /* UIKit.framework */,
+				18B21A6D14781774006B003D /* Foundation.framework */,
+				18B21A6F14781774006B003D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18B21A7114781774006B003D /* UITableView+KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				18B21AA114783133006B003D /* Readme */,
+				18B21A9A14782A1B006B003D /* resources */,
+				18B21A9914782705006B003D /* xib */,
+				18B21A98147826F1006B003D /* controllers */,
+				18B21A7A14781774006B003D /* UITableView_KeyBoardAppDelegate.h */,
+				18B21A7B14781774006B003D /* UITableView_KeyBoardAppDelegate.m */,
+				18B21A7214781774006B003D /* Supporting Files */,
+			);
+			path = "UITableView+KeyBoard";
+			sourceTree = "<group>";
+		};
+		18B21A7214781774006B003D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B21A7314781774006B003D /* UITableView+KeyBoard-Info.plist */,
+				18B21A7414781774006B003D /* InfoPlist.strings */,
+				18B21A7714781774006B003D /* UITableView+KeyBoard-Prefix.pch */,
+				18B21A7814781774006B003D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B21A98147826F1006B003D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18B21A8B147817C0006B003D /* CustomTextBoxCell.h */,
+				18B21A8C147817C0006B003D /* CustomTextBoxCell.m */,
+				18B21A8014781774006B003D /* RootViewController.h */,
+				18B21A8114781774006B003D /* RootViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		18B21A9914782705006B003D /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				18B21A8D147817C0006B003D /* CustomTextBoxCell.xib */,
+				18B21A7D14781774006B003D /* MainWindow.xib */,
+				18B21A8314781774006B003D /* RootViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		18B21A9A14782A1B006B003D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				18B21A9B14782A32006B003D /* default.png */,
+				18B21A9C14782A32006B003D /* icon.png */,
+				18B21A9D14782A32006B003D /* icon2@.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B21A6614781774006B003D /* UITableView+KeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B21A8814781774006B003D /* Build configuration list for PBXNativeTarget "UITableView+KeyBoard" */;
+			buildPhases = (
+				18B21A6314781774006B003D /* Sources */,
+				18B21A6414781774006B003D /* Frameworks */,
+				18B21A6514781774006B003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITableView+KeyBoard";
+			productName = "UITableView+KeyBoard";
+			productReference = 18B21A6714781774006B003D /* UITableView+KeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B21A5E14781774006B003D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Gurami Soft C.A.";
+			};
+			buildConfigurationList = 18B21A6114781774006B003D /* Build configuration list for PBXProject "UITableView+KeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18B21A5C14781774006B003D;
+			productRefGroup = 18B21A6814781774006B003D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B21A6614781774006B003D /* UITableView+KeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B21A6514781774006B003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B21A7614781774006B003D /* InfoPlist.strings in Resources */,
+				18B21A7F14781774006B003D /* MainWindow.xib in Resources */,
+				18B21A8514781774006B003D /* RootViewController.xib in Resources */,
+				18B21A8F147817C0006B003D /* CustomTextBoxCell.xib in Resources */,
+				18B21A9E14782A32006B003D /* default.png in Resources */,
+				18B21A9F14782A32006B003D /* icon.png in Resources */,
+				18B21AA014782A32006B003D /* icon2@.png in Resources */,
+				18B21AA214783133006B003D /* Readme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B21A6314781774006B003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B21A7914781774006B003D /* main.m in Sources */,
+				18B21A7C14781774006B003D /* UITableView_KeyBoardAppDelegate.m in Sources */,
+				18B21A8214781774006B003D /* RootViewController.m in Sources */,
+				18B21A8E147817C0006B003D /* CustomTextBoxCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18B21A7414781774006B003D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B21A7514781774006B003D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18B21A7D14781774006B003D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B21A7E14781774006B003D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		18B21A8314781774006B003D /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B21A8414781774006B003D /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B21A8614781774006B003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18B21A8714781774006B003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		18B21A8914781774006B003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableView+KeyBoard/UITableView+KeyBoard-Prefix.pch";
+				INFOPLIST_FILE = "UITableView+KeyBoard/UITableView+KeyBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18B21A8A14781774006B003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UITableView+KeyBoard/UITableView+KeyBoard-Prefix.pch";
+				INFOPLIST_FILE = "UITableView+KeyBoard/UITableView+KeyBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B21A6114781774006B003D /* Build configuration list for PBXProject "UITableView+KeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B21A8614781774006B003D /* Debug */,
+				18B21A8714781774006B003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B21A8814781774006B003D /* Build configuration list for PBXNativeTarget "UITableView+KeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B21A8914781774006B003D /* Debug */,
+				18B21A8A14781774006B003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B21A5E14781774006B003D /* Project object */;
+}
